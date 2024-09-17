@@ -1,0 +1,1 @@
+export { default as highlights } from './highlights.astro'

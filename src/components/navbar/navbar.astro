@@ -1,0 +1,87 @@
+---
+import service from "astro/assets/services/squoosh";
+
+interface NavProps {
+  title: string;
+  href: string;
+  active: boolean;
+}
+
+const { title, href, active } = Astro.props;
+
+const NavLinks = [
+ {
+  title: 'Home',
+  link: '/',
+ },
+ {
+  title: 'Services',
+  link: '/services',
+ }, 
+ {
+  title: 'About',
+  link: '/about'
+ },
+ {
+  title: 'Contact',
+  link: '/contact'
+ }
+]
+---
+
+
+<header class="navbar__container">
+  <img src="/images/logo.png"/>  
+  <nav class="navbar">
+    <ol class="navbar__list">
+      {
+        NavLinks.map((nav) => (
+          <li class="navbar__item custom-underline">
+            <a href={nav.link}>{nav.title}</a>
+          </li>
+        ))
+      }
+    </ol>
+    
+  </nav>
+</header>
+
+<style>
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-end: 1rem;
+  align-items: center;
+
+  & .navbar__list {
+    display: flex;
+    gap: 1rem;
+
+    & .navbar__item {
+      list-style: none;
+
+      & a {
+        text-decoration: none;
+        color: #f86500;
+      }
+    }
+
+    & .custom-underline::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: #001260;
+      transform: scaleX(0);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    & .custom-underline:hover::after {
+      transform: scaleX(1);
+    }
+  }
+}
+
+
+
+</style>

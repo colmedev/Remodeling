@@ -1,11 +1,13 @@
 /** @type {import("prettier").Config} */
 const config = {
+  plugins: ["prettier-plugin-astro", "@ianvs/prettier-plugin-sort-imports"],
   arrowParens: "always",
   semi: true,
   tabWidth: 2,
+  useTabs: false,
   printWidth: 100,
   singleQuote: true,
-  trailingComma: "es5",
+  trailingComma: 'none',
   bracketSpacing: true,
   plugins: ["prettier-plugin-astro", "@ianvs/prettier-plugin-sort-imports"],
   importOrder: [

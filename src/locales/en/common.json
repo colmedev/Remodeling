@@ -1,0 +1,34 @@
+{
+  "navbar": ["Home", "Services", "About Us", "Contact"],
+  "introduction__title": "Remodeling Fc",
+  "introduction__text": "Laminated flooring & Paiting services",
+  "services_section": [
+    {
+      "title": "Comprehensive home renovation services",
+      "description": "<span>remodeling fc</span> offers a comprehensive range of services designed to enhance both the aesthetic and functional aspects of your home. With over 10 years of experience, their laminated flooring services include personalized consultations"
+    }
+  ],
+  "services": ["Floor Services", "Painting Services"],
+  "why_title": "Why Choose Us?",
+  "why_text": "At REMODELING FC LLC, we pride ourselves on delivering exceptional home improvement services that combine quality craftsmanship, superior materials, and a customer-centric approach.",
+  "Benefits_title": "Our Core Benefits",
+  "Benefits": [
+    "Over 10 Years of Experience",
+    "High-Quality Materials",
+    "Skilled Craftsmanship",
+    "Comprehensive Services",
+    "Personalized Approach",
+    "Efficient Project Management"
+  ],
+  "funfact_title": [
+    "Projects completed",
+    "Satisfied customers",
+    "Profesionalism"
+  ],
+  "provider": "<span>REMODELING FC LLC</span> is a seasoned provider of home improvement services, boasting over 10 years of industry experience.",
+  "cover": "we cover",
+  "contact": "Contact Us",
+  "schedule": "Mon - Fri",
+  "payment": "Cash, Checks, Zelle, Cards",
+  "footer": "© Copyright 2024 REMODELING FC LLC"
+}

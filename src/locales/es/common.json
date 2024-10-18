@@ -1,0 +1,34 @@
+{
+  "navbar": ["Inicio", "Servicios", "Nosotros", "Contacto"],
+  "introduction__title": "Suelo laminado y servicios de pintura",
+  "services_section": [
+    {
+      "enterprise": "Remodeling Fc",
+      "title": "Servicios integrales de reformas para el hogar",
+      "description": "<span>remodeling fc</span> ofrece una amplia gama de servicios diseñados para mejorar tanto los aspectos estéticos como funcionales de su hogar. Con más de 10 años de experiencia, sus servicios de suelos laminados incluyen consultas personalizadas"
+    }
+  ],
+  "services": ["Servicios de piso", "Servicios de pintura"],
+  "why_title": "¿Por qué elegirnos?",
+  "why_text": "En REMODELING FC LLC, nos enorgullecemos de ofrecer servicios excepcionales de mejora del hogar que combinan artesanía de calidad, materiales superiores y un enfoque centrado en el cliente.",
+  "Benefits_title": "Nuestros beneficios principales",
+  "Benefits": [
+    "Más de 10 años de experiencia",
+    "Materiales de alta calidad",
+    "Artesanía cualificada",
+    "Servicios completos",
+    "Enfoque personalizado",
+    "Gestión eficiente de proyectos"
+  ],
+  "funfact_title": [
+    "Proyectos completados",
+    "Clientes Satisfechos",
+    "Profesionalismo"
+  ],
+  "provider": "<span>REMODELING FC LLC</span> es un proveedor experimentado de servicios de mejora del hogar, con más de 10 años de experiencia en el sector.",
+  "cover": "Cubrimos",
+  "contact": "Contactanos",
+  "schedule": "Lun - Vie",
+  "payment": "Efectivo, Cheque, Zelle, Tarjetas",
+  "footer": "© Copyright 2024 REMODELING FC LLC"
+}

@@ -11,12 +11,12 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.3",
+    "@astrojs/check": "^0.9.4",
     "@astrolicious/i18n": "^0.5.1",
-    "astro": "^4.15.6",
+    "astro": "^4.15.11",
     "embla-carousel": "^8.2.0",
     "embla-carousel-autoplay": "^8.2.0",
-    "i18next": "^23.15.1",
+    "i18next": "^23.15.2",
     "typescript": "^5.5.4"
   },
   "devDependencies": {

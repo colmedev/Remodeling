@@ -5,8 +5,14 @@
     "strictNullChecks": true,
     "paths": {
       "@components/*": ["components/*"],
+      "components": ["components"],
       "@layouts/*": ["layouts/*"],
-      "@pages/*": ["pages/*"],
+      "@contracts/*": ["contracts/*"],
+      "@contracts": ["contracts"],
+      "@sections/*": ["sections/*"],
+      "sections": ["sections"],
+      "@public/*": ["public/*"],
+      "@/*": ["src/*"]
     }
   }
 }

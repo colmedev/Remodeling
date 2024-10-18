@@ -1,0 +1,53 @@
+---
+import { t } from "i18next";
+import Footerlist from "./Footerlist.astro";
+
+// import 
+const dataFooter = t('footer', {
+  returnObjects: true,
+})
+
+// const dataTestimonies = t('about_testimonials_text', {
+//   returnObjects: true,
+// });
+//TODO: Make this thing work
+---
+<footer class="footer">
+  <div class="footer-content">
+  <div>
+    <img src="./images/logo.png" alt="logo">
+    <p>{t('provider')}</p>
+  </div>
+
+  <div>
+    <Footerlist 
+    address="134 Mandovi St, Davenport, FL 33837, USA"
+    email="remodelingfcllc@gmail.com"
+    phone="+1 (407) 613-4385"
+    schedule="Mon - Fri: 8.00 am - 6.00 pm"
+    />
+  </div>
+</div>
+  <div>
+    <p>{t('contact')}</p>
+
+    <p>Cash, Checks, Zelle, Cards</p>
+  </div>
+  <p>
+    © Copyright 2024 REMODELING FC LLC
+  </p>
+</footer>
+
+<style>
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & .footer-content {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  }
+</style>

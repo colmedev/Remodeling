@@ -2,7 +2,11 @@
 interface ButtonProps {
   text: string;
   href: string;
+  CtA: boolean;
 }
 
-const { text, href } = Astro.props;
+const { text, href, CtA } = Astro.props;
 ---
+<button class="button" class:list={{CtA}}>
+  <a href={href}>{text}</a>
+</button>

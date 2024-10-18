@@ -2,7 +2,7 @@ import type { LinkItem } from "@contracts/link.types";
 /**
  * Elementos de la barra de navegación
  */
-export const NavItems: LinkItem[] = [
+export const navItems: LinkItem[] = [
   {
     text: "Home",
     url: "/",

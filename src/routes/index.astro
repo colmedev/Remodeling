@@ -1,6 +1,6 @@
 ---
 import Layout  from "@layouts/Layout.astro";
-// import Hero from "@sections/hero.astro";
+import Hero from "@sections/hero.astro";
 import Highlights from "@components/Highlights/Highlights.astro";
 import { t } from "i18next";
 import { getLocale } from "i18n:astro";
@@ -28,7 +28,7 @@ const locale = getLocale()
 
 <Layout title="RemodelingFc">
 	<main>
-		<!-- <Hero /> -->
+		<Hero /> 
 
 		<section class="introduction__container">
 			<article class="introduction__text">
@@ -81,8 +81,6 @@ const locale = getLocale()
 			</div>
 		</div>
 		<!--TODO: Testimonials -->
-
-		<Highlights />
 	</main>
 </Layout>
 

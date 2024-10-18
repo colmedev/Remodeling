@@ -22,35 +22,19 @@ const { title } = Astro.props;
 
 <style is:global>
   :root {
-  --orange-1: #fefcfb;
-  --orange-2: #fff6ee;
-  --orange-3: #ffecd6;
-  --orange-4: #ffdcb9;
-  --orange-5: #ffcfa2;
-  --orange-6: #ffc18d;
-  --orange-7: #f6b07b;
-  --orange-8: #e99858;
-  --orange-9: #ec8004;
-  --orange-10: #df7400;
-  --orange-11: #c05c00;
-  --orange-12: #523219;
+  --orange-1: #df7400;
+  --orange-2: #c05c00;
+  --orange-3: #523219;
 
   --orange-indicator: #ec8004;
 
   --blue-1: #f4fdff;
-  --blue-2: #f0faff;
-  --blue-3: #e2f1ff;
-  --blue-4: #d7e9ff;
-  --blue-5: #cce2ff;
-  --blue-6: #c1daff;
-  --blue-7: #b0cfff;
-  --blue-8: #93baff;
-  --blue-9: #4a83ff;
+
   --blue-10: #3873ff;
   --blue-11: #063cff;
   --blue-12: #030076;
 
-  --gray-1: #00d1ff0b;
+  --black: #21222285;
   --gray-2: #00aaff0f;
   --gray-3: #0084ff1d;
   --gray-4: #0073ff28;
@@ -62,12 +46,14 @@ const { title } = Astro.props;
   --gray-10: #004cffc7;
   --gray-11: #0037fff9;
 
-  --gray-contrast: #FFFFFF;
+  --white: #FFFFFF;
   --gray-surface: #ffffffcc;
   --gray-indicator: #4a83ff;
   --gray-track: #4a83ff;
+  }
 
-  --gray-contrast: #FFFFFF;
+  @view-transition {
+    navigation: auto;
   }
   * {
 		box-sizing: border-box;

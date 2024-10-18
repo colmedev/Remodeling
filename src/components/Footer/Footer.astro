@@ -46,8 +46,14 @@ const dataFooter = t('footer', {
 
     & .footer-content {
       display: flex;
+      flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
+
+      @media (width >= 768px) {
+            flex-direction: row;
     }
-  }
+    }
+
+  
 </style>

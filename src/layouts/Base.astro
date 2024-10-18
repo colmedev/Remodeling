@@ -1,0 +1,72 @@
+---
+import { Navbar } from '@components/Navbar';
+import Footer from '@components/Footer/Footer.astro';interface Props {
+	title: string;
+}
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+    <body>
+      <slot />
+    </body>
+</html>
+
+<style is:global>
+  :root {
+  --orange-1: #fefcfb;
+  --orange-2: #fff6ee;
+  --orange-3: #ffecd6;
+  --orange-4: #ffdcb9;
+  --orange-5: #ffcfa2;
+  --orange-6: #ffc18d;
+  --orange-7: #f6b07b;
+  --orange-8: #e99858;
+  --orange-9: #ec8004;
+  --orange-10: #df7400;
+  --orange-11: #c05c00;
+  --orange-12: #523219;
+
+  --orange-indicator: #ec8004;
+
+  --blue-1: #f4fdff;
+  --blue-2: #f0faff;
+  --blue-3: #e2f1ff;
+  --blue-4: #d7e9ff;
+  --blue-5: #cce2ff;
+  --blue-6: #c1daff;
+  --blue-7: #b0cfff;
+  --blue-8: #93baff;
+  --blue-9: #4a83ff;
+  --blue-10: #3873ff;
+  --blue-11: #063cff;
+  --blue-12: #030076;
+
+  --gray-1: #00d1ff0b;
+  --gray-2: #00aaff0f;
+  --gray-3: #0084ff1d;
+  --gray-4: #0073ff28;
+  --gray-5: #006eff33;
+  --gray-6: #0067ff3e;
+  --gray-7: #0065ff4f;
+  --gray-8: #005dff6c;
+  --gray-9: #0051ffb5;
+  --gray-10: #004cffc7;
+  --gray-11: #0037fff9;
+
+  --gray-contrast: #FFFFFF;
+  --gray-surface: #ffffffcc;
+  --gray-indicator: #4a83ff;
+  --gray-track: #4a83ff;
+
+  --gray-contrast: #FFFFFF;
+  }
+</style>

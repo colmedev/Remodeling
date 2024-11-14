@@ -19,7 +19,7 @@ export type LinkItem = {
   label: string;
 };
 
-export type IconItem = {
+export type IconItem = LinkItem & {
   /*
    * URL del elemento
    */

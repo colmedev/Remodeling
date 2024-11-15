@@ -7,6 +7,25 @@ interface ButtonProps {
 
 const { text, href, CtA } = Astro.props;
 ---
-<button class="button" class:list={{CtA}}>
-  <a href={href}>{text}</a>
-</button>
+
+  <a href={href} class="button" class:list={CtA ? 'button-cta' : ''}>{text}</a>
+
+<style>
+.button {
+  background-color: var(--orange-1);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  display: flexbox;
+
+  &:hover {
+    color: var(--black);
+    background-color: var(--orange-2);
+  }
+
+  &.button-cta {
+
+  }
+}
+</style>

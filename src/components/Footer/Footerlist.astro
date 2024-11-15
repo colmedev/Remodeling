@@ -10,7 +10,7 @@ interface Props {
 const { schedule, phone, email, address } = Astro.props;
 ---
 
-<ul>
+<ul class="footer__list">
   <li>
     <p>{address}</p>
   </li>
@@ -28,3 +28,9 @@ const { schedule, phone, email, address } = Astro.props;
   </li>
 
 </ul>
+
+<style>
+  .footer__list {
+    list-style: none;
+  }
+</style>

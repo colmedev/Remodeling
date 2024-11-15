@@ -1,22 +1,35 @@
 ---
 import { t } from "i18n:astro";
+import Button from "@components/Button/Button.astro";
 ---
 
 <section class="hero">
  <div class="hero__container">
   <h1>{t('introduction__title')}</h1>
   <p>{t('introduction__text')}</p>
+  <Button href="www.google.com" text="contact">
  </div>
 </section>
 
 <style>
  .hero {
-   background: url("/images/assets/hero.webp") no-repeat center center;
-   background-size:cover ;
-   height: 100vh;
-   width: 100%;
+   background: url("/images/assets/hero.jpg") no-repeat center center;
+   background-size: contain;
+   height: 38vh;
    display: flex;
    justify-content: center;
    align-items: center;
+
+   @media (width > 325px) {
+    background-size: cover;
+    height: 100vh;
+   }
+
+   & .hero__container {
+
+    & p {
+      padding-block-end: 1rem;
+    }
+   }
  }
 </style>

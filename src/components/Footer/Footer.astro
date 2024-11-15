@@ -13,19 +13,21 @@ const dataFooter = t('footer', {
 //TODO: Make this thing work
 ---
 <footer class="footer">
-  <div class="footer-content">
+  <div class="footer__content">
   <div>
     <img src="./images/logo.png" alt="logo">
-    <p>{t('provider')}</p>
+    <p><span>Remodeling Fc</span>{t('provider')}</p>
   </div>
 
-  <div>
+  <div class="footer__contact">
     <Footerlist 
     address="134 Mandovi St, Davenport, FL 33837, USA"
     email="remodelingfcllc@gmail.com"
     phone="+1 (407) 613-4385"
-    schedule="Mon - Fri: 8.00 am - 6.00 pm"
+    schedule=`${t('schedule')} 8.00 am - 6.00 pm`
     />
+    <p>{t('payment')}</p>
+    <p>{t('footer')}</p>
   </div>
 </div>
   <div>
@@ -44,7 +46,7 @@ const dataFooter = t('footer', {
     flex-direction: column;
     align-items: center;
 
-    & .footer-content {
+    & .footer__content {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -54,6 +56,5 @@ const dataFooter = t('footer', {
             flex-direction: row;
     }
     }
-
-  
+  }
 </style>

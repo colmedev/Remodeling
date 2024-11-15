@@ -8,7 +8,68 @@
       "description": " offers a comprehensive range of services designed to enhance both the aesthetic and functional aspects of your home. With over 10 years of experience, their laminated flooring services include personalized consultations"
     }
   ],
-  "services": ["Floor Services", "Painting Services"],
+  "services": [
+    {
+      "title": "Remodeling Services",
+      "description": "Our comprehensive remodeling services include kitchen and bathroom remodeling, basement finishing, whole home renovation, exterior remodeling, and attic & garage conversion. We provide tailored solutions for each project to meet your unique needs."
+    },
+    {
+    "title": "Flooring Services",
+    "description": "Our flooring installation services include tile installation and more, transforming your floors into stunning features. Whether you’re looking for durable materials or aesthetic appeal, our expertise ensures quality results every time."
+  },
+  {
+    "title": "Painting Services",
+    "description": "Our painting services cover interior, exterior, commercial, and residential projects. Whether you’re interested in decorative designs or need cabinet, trim, and baseboard touch-ups, we have you covered. We also specialize in ceiling painting for a fresh new look."
+  },
+  {
+    "title": "Pressure Washing",
+    "description": "Keep your property looking its best with our pressure washing services. From driveways to siding, we remove dirt and grime efficiently, enhancing the appearance of your home or business."
+  },
+  {
+    "title": "Drywall Services",
+    "description": "We offer drywall services that encompass everything from installation to repair. Trust us to deliver smooth surfaces for painting or adding other finishing touches."
+  },
+  {
+    "title": "Plumbing Services",
+    "description": "Our plumbing services ensure smooth operation and functionality in residential and commercial settings. We handle everything from simple repairs to complex installations with precision and care."
+  },
+  {
+    "title": "Electrical Services",
+    "description": "Our electrical services ensure safe and efficient electrical systems for your property. We handle installations, repairs, and upgrades with expertise and reliability."
+  },
+  {
+    "title": "Window and Door Installation & Replacement",
+    "description": "Upgrade your space with our window and door installation & replacement services. We provide energy-efficient solutions that enhance both aesthetics and functionality."
+  }, 
+  {
+    "title": "Siding Replacement",
+    "description": "Improve curb appeal with our siding replacement services. Choose from a variety of materials and finishes that best suit your style. Discover more by calling us now!"
+  },
+  {
+    "title": "Roof Replacement",
+    "description": "A reliable roof is essential for any building. Our roof replacement services ensure longevity and protection against the elements with high-quality materials and expert craftsmanship."
+  },
+  {
+    "title": "Carpentry Services",
+    "description": "We offer carpentry services, including cabinet installation, shelving, trim and molding, door installation, and repair. Our skilled experts bring precision to every detail."
+  },
+  {
+    "title": "Deck Repair and Maintenance",
+    "description": "Your deck should be a place of relaxation. Our deck repair and maintenance services keep it safe and beautiful year-round, addressing all wear and tear issues."
+  },
+  {
+    "title": "Concrete Construction",
+    "description": "Our concrete construction services offer durable solutions for patios, driveways, walkways, and more. We focus on quality results that stand the test of time."
+  },
+  {
+    "title": "Landscaping and Outdoor Living Services",
+    "description": "Depend on us to help you breathe new life into your outdoor area. We use various techniques and solutions to transform your outdoor living space into a more beautiful and functional area."
+  },
+  {
+    "title": "Garage Door Installation & Replacement",
+    "description": "Enhance the functionality and curb appeal of your home with our professional garage door installation and replacement services. We offer a wide range of options to suit various styles and budgets."
+  }
+],
   "why_title": "Why Choose Us?",
   "why_text": " we pride ourselves on delivering exceptional home improvement services that combine quality craftsmanship, superior materials, and a customer-centric approach.",
   "Benefits_title": "Our Core Benefits",
@@ -31,5 +92,25 @@
   "schedule": "Mon - Fri",
   "payment": "Cash, Checks, Zelle, Cards",
   "footer": "© Copyright 2024 REMODELING FC LLC",
-  "about_text": " is a seasoned provider of home improvement services, boasting over 10 years of industry experience. The company has established a strong reputation for delivering high-quality craftsmanship and exceptional customer service in a variety of remodeling projects. Their extensive experience ensures they understand the nuances of both modern and traditional design elements, making them a trusted choice for homeowners looking to enhance their living spaces."
+  "about":[{
+    "title": "About Us",
+    "about_text": " is a seasoned provider of home improvement services, boasting over 10 years of industry experience. The company has established a strong reputation for delivering high-quality craftsmanship and exceptional customer service in a variety of remodeling projects. Their extensive experience ensures they understand the nuances of both modern and traditional design elements, making them a trusted choice for homeowners looking to enhance their living spaces."
+  },
+  {
+    "title": "transform_spaces",
+    "transform_spaces_text": "We believe that every home and business deserves to shine. Our remodeling services bring new life and functionality to your spaces. Whether updating your kitchen, revamping a bathroom, or overhauling a commercial property, we ensure superior craftsmanship. Our projects reflect our passion for enhancing the beauty and value of your property."
+  },
+  {
+    "title": "Our Work Process",
+    "work_process_text": "Every project starts with a thorough consultation where we discuss your vision and requirements. This initial phase helps us understand your needs and provides the details we need to deliver tailored solutions. A Step-by-Step Approach. Once the planning is complete, our team begins the implementation phase. By following a systematic approach, we ensure efficient execution without compromising quality. Our process guarantees timely completion of every service."
+  }
+],
+"areas": [
+  {
+    "areas_title": "Serving the Surrounding Areas",
+    "areas_text": "Our company has become a trusted name in many surrounding areas due to our consistent quality and reliable services. Clients from various locations trust us for their renovation needs, further expanding our reach in the community."
+  }
+]  
+
 }
+

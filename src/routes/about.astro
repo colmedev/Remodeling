@@ -5,22 +5,22 @@ import { t } from "i18n:astro";
 <Layout title="About">
   <section>
     <article>
-      REMODELING FC LLC is a seasoned provider of home improvement services, boasting over 10 years of industry experience. The company has established a strong reputation for delivering high-quality craftsmanship and exceptional customer service in a variety of remodeling projects. Their extensive experience ensures they understand the nuances of both modern and traditional design elements, making them a trusted choice for homeowners looking to enhance their living spaces.
+      <span>REMODELING FC LLC</span> {t('about_text')}
     </article>
   </section>
   <section>
-    <h2>Why Choose Us?</h2>
+    <h2>{t('why_title')}</h2>
     <article>
-      At REMODELING FC LLC, we pride ourselves on delivering exceptional home improvement services that combine quality craftsmanship, superior materials, and a customer-centric approach. Here’s why you should choose us for your next remodeling project.
+      At <span>REMODELING FC LLC</span> {t('why_text')}
     </article>
-    <span>Our core benefits as a Floor company include:</span>
-    <ol>
-      <li class="list__item">Over 10 Years of Experience</li>
-      <li class="list__item">High-Quality Materials</li>
-      <li class="list__item">Skilled Craftsmanship</li>
-      <li class="list__item">Comprehensive Services</li>
-      <li class="list__item">Personalized Approach</li>
-      <li class="list__item">Efficient Project Management</li>
+    <span>{t('Benefits_title')}:</span>
+    <ol class="benefits__list">
+      <li>{t('common:Benefits.0')}</li>
+      <li>{t('common:Benefits.1')}</li>
+      <li>{t('common:Benefits.2')}</li>
+      <li>{t('common:Benefits.3')}</li>
+      <li>{t('common:Benefits.4')}</li>
+      <li>{t('common:Benefits.5')}</li>
     </ol>
   </section>
   </Layout>

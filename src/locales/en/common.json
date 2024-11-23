@@ -92,17 +92,18 @@
   "schedule": "Mon - Fri",
   "payment": "Cash, Checks, Zelle, Cards",
   "footer": "© Copyright 2024 REMODELING FC LLC",
-  "about":[{
-    "title": "About Us",
-    "about_text": " is a seasoned provider of home improvement services, boasting over 10 years of industry experience. The company has established a strong reputation for delivering high-quality craftsmanship and exceptional customer service in a variety of remodeling projects. Their extensive experience ensures they understand the nuances of both modern and traditional design elements, making them a trusted choice for homeowners looking to enhance their living spaces."
+  "about_us":[
+    {
+    "title_us": "About Us",
+    "about_description": " is a seasoned provider of home improvement services, boasting over 10 years of industry experience. The company has established a strong reputation for delivering high-quality craftsmanship and exceptional customer service in a variety of remodeling projects. Their extensive experience ensures they understand the nuances of both modern and traditional design elements, making them a trusted choice for homeowners looking to enhance their living spaces."
   },
   {
-    "title": "transform_spaces",
-    "transform_spaces_text": "We believe that every home and business deserves to shine. Our remodeling services bring new life and functionality to your spaces. Whether updating your kitchen, revamping a bathroom, or overhauling a commercial property, we ensure superior craftsmanship. Our projects reflect our passion for enhancing the beauty and value of your property."
+    "title": "transform spaces",
+    "transform_description": "We believe that every home and business deserves to shine. Our remodeling services bring new life and functionality to your spaces. Whether updating your kitchen, revamping a bathroom, or overhauling a commercial property, we ensure superior craftsmanship. Our projects reflect our passion for enhancing the beauty and value of your property."
   },
   {
     "title": "Our Work Process",
-    "work_process_text": "Every project starts with a thorough consultation where we discuss your vision and requirements. This initial phase helps us understand your needs and provides the details we need to deliver tailored solutions. A Step-by-Step Approach. Once the planning is complete, our team begins the implementation phase. By following a systematic approach, we ensure efficient execution without compromising quality. Our process guarantees timely completion of every service."
+    "our_description": "Every project starts with a thorough consultation where we discuss your vision and requirements. This initial phase helps us understand your needs and provides the details we need to deliver tailored solutions. A Step-by-Step Approach. Once the planning is complete, our team begins the implementation phase. By following a systematic approach, we ensure efficient execution without compromising quality. Our process guarantees timely completion of every service."
   }
 ],
 "areas": [
@@ -111,6 +112,5 @@
     "areas_text": "Our company has become a trusted name in many surrounding areas due to our consistent quality and reliable services. Clients from various locations trust us for their renovation needs, further expanding our reach in the community."
   }
 ]  
-
 }
 

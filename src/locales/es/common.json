@@ -31,5 +31,23 @@
   "schedule": "Lun - Vie",
   "payment": "Efectivo, Cheque, Zelle, Tarjetas",
   "footer": "© Copyright 2024 REMODELING FC LLC",
-  "about_text": " es un proveedor experimentado de servicios de mejoras para el hogar, con más de 10 años de experiencia en el sector. La empresa se ha forjado una sólida reputación por ofrecer un trabajo artesanal de alta calidad y un servicio de atención al cliente excepcional en una gran variedad de proyectos de remodelación. Su amplia experiencia les permite comprender los matices de los elementos de diseño modernos y tradicionales, lo que les convierte en una opción de confianza para los propietarios de viviendas que desean mejorar sus espacios vitales."
+  "about":[{
+    "title": "About Us",
+    "about_text": " is a seasoned provider of home improvement services, boasting over 10 years of industry experience. The company has established a strong reputation for delivering high-quality craftsmanship and exceptional customer service in a variety of remodeling projects. Their extensive experience ensures they understand the nuances of both modern and traditional design elements, making them a trusted choice for homeowners looking to enhance their living spaces."
+  },
+  {
+    "title": "transform_spaces",
+    "transform_spaces_text": "We believe that every home and business deserves to shine. Our remodeling services bring new life and functionality to your spaces. Whether updating your kitchen, revamping a bathroom, or overhauling a commercial property, we ensure superior craftsmanship. Our projects reflect our passion for enhancing the beauty and value of your property."
+  },
+  {
+    "title": "Our Work Process",
+    "work_process_text": "Every project starts with a thorough consultation where we discuss your vision and requirements. This initial phase helps us understand your needs and provides the details we need to deliver tailored solutions. A Step-by-Step Approach. Once the planning is complete, our team begins the implementation phase. By following a systematic approach, we ensure efficient execution without compromising quality. Our process guarantees timely completion of every service."
+  }
+],
+"areas": [
+  {
+    "areas_title": "Serving the Surrounding Areas",
+    "areas_text": "Our company has become a trusted name in many surrounding areas due to our consistent quality and reliable services. Clients from various locations trust us for their renovation needs, further expanding our reach in the community."
+  }
+]  
 }

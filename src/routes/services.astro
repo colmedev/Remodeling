@@ -1,8 +1,20 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import { t } from "i18n:astro";
+import Card from "@components/Card/Card.astro";
+
+const services = t('services', {
+  returnObjects: true
+})
 ---
 
 <Layout title="Services">
   <h1>Services</h1>
+  <div>
+    {
+      services.map((service) => (
+        <Card title={service.title} body={service.description} />
+      ))
+    }
+  </div>
 </Layout>

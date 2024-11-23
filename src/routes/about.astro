@@ -1,13 +1,74 @@
 ---
 import Layout from "@layouts/Layout.astro"
-import { t } from "i18n:astro";
+import { t } from "i18n:astro"
+
+const about = t('about_us', {
+  returnObjects: true
+})
+
+const { title_us: titleUs, about_description: descriptionAbout } = about[0]
+
+const {title: titleT, transform_description: descriptionT} = about[1]
+
+const { title: title, our_description: description } = about[2]
+
+const area = t('areas', {
+  returnObjects: true
+})
+
+const { areas_title: areaTitle, areas_text: areaDesc } = area[0]
+
+const areasFl = [
+  {
+    area_title: "Auburndale, FL"
+  },
+  {
+    area_title: "Cypress Gardens, FL"
+  },
+  {
+    area_title: "Haines City, FL"
+  },
+  {
+    area_title: "Kissimmee, FL"
+  },
+  {
+    area_title: "Lakeland, FL"
+  },
+  {
+    area_title: "Orlando, FL"
+  },
+  {
+    area_title: "Tampa, FL"
+  },
+  {
+    area_title: "Winter Haven, FL"
+  },
+]
+
+const benefits = t('Benefits', {
+  returnObjects: true
+})
 ---
-<Layout title="About">
-  <section>
+<Layout title={titleUs}>
+  <section class="about__section">
+
+    <h2>{titleUs}</h2>
     <article>
-      <span>REMODELING FC LLC</span> {t('about_text')}
+      {descriptionAbout}
     </article>
+
+    <h2>{titleT}</h2>
+    <article>
+      {descriptionT}
+    </article>
+
+    <h2>{title}</h2>
+    <article>
+      {description}
+    </article>
+
   </section>
+  
   <section>
     <h2>{t('why_title')}</h2>
     <article>
@@ -15,12 +76,26 @@ import { t } from "i18n:astro";
     </article>
     <span>{t('Benefits_title')}:</span>
     <ol class="benefits__list">
-      <li>{t('common:Benefits.0')}</li>
-      <li>{t('common:Benefits.1')}</li>
-      <li>{t('common:Benefits.2')}</li>
-      <li>{t('common:Benefits.3')}</li>
-      <li>{t('common:Benefits.4')}</li>
-      <li>{t('common:Benefits.5')}</li>
+      {benefits.map((benefit) => (
+        <li>{benefit}</li>
+      ))}
     </ol>
   </section>
+
+  <section>
+
+    <h2>{areaTitle}</h2>
+
+    <article>
+      {areaDesc}
+    </article>
+
+    <ul class="areas__list">
+      {areasFl.map((area) => (
+        <li>{area.area_title}</li>
+      ))}
+    </ul>
+
+  </section>
+  
   </Layout>

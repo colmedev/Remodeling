@@ -50,7 +50,7 @@ const benefits = t('Benefits', {
 })
 ---
 <Layout title={titleUs}>
-  <section class="about__section">
+  <section class="about_section">
 
     <h2>{titleUs}</h2>
     <article>
@@ -75,7 +75,7 @@ const benefits = t('Benefits', {
       At <span>REMODELING FC LLC</span> {t('why_text')}
     </article>
     <span>{t('Benefits_title')}:</span>
-    <ol class="benefits__list">
+    <ol class="benefits_list">
       {benefits.map((benefit) => (
         <li>{benefit}</li>
       ))}
@@ -90,7 +90,7 @@ const benefits = t('Benefits', {
       {areaDesc}
     </article>
 
-    <ul class="areas__list">
+    <ul class="areas_list">
       {areasFl.map((area) => (
         <li>{area.area_title}</li>
       ))}

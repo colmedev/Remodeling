@@ -9,12 +9,32 @@ const services = t('services', {
 ---
 
 <Layout title="Services">
-  <h1>Services</h1>
-  <div>
+  <h1 class="title">Services</h1>
+  <div class="services">
     {
       services.map((service) => (
-        <Card title={service.title} body={service.description} />
+        <Card title={service.title} body={service.description} class="service-card" />
       ))
     }
   </div>
 </Layout>
+
+<style>
+  .title {
+    padding-block-end: 0.5rem;
+  }
+.services {
+  display: flex; 
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-block-end: 0.5rem;
+  align-items: center;
+  
+  @media (width >= 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+</style>

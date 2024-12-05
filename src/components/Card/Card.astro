@@ -2,9 +2,10 @@
 interface Props {
 	title: string;
 	body: string;
+	class?: string; 
 }
 
-const { title, body } = Astro.props;
+const { title, body, class: className } = Astro.props;
 ---
 
 <div class="card">
@@ -17,10 +18,14 @@ const { title, body } = Astro.props;
 </div>
 <style>
 	.card {
-		width: 20rem;
-		background-color: var(--blue-3);
+		width: 15rem;
+		background-color: var(--orange-1);
 		color: var(--white);
 		border-radius: 5px;
-		padding: 1rem 0.5rem;
+		padding: 1rem;
+
+		@media (width >= 768px) {
+			width: 30rem;
+		}
 	}
 </style>

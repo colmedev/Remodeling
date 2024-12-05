@@ -31,13 +31,13 @@ const locale = getLocale()
 	<main>
 		<Hero /> 
 
-		<section class="introduction__container">
-			<article class="introduction__text">
-				<h3>{t('introduction__text')}</h3>
+		<section class="introduction_container">
+			<article class="introduction_text">
+				<h3>{t('introduction_text')}</h3>
 			</article>
 
-			<article class="introduction__title">
-				<h1>{t('introduction__title')}</h1>
+			<article class="introduction_title">
+				<h1>{t('introduction_title')}</h1>
 			</article>
 		</section>
 
@@ -52,7 +52,7 @@ const locale = getLocale()
 				</ol>
 			</div>
 
-			<div class="funfacts__container">
+			<div class="funfacts_container">
 				{funfacts.map((funfact) => (
 					<div class="funfact">
 						<img src={funfact.img} alt="funfact"/>
@@ -63,13 +63,13 @@ const locale = getLocale()
 			</div>
 		</div>
 
-		<div class="why__section">
+		<div class="why_section">
 				<Card title={t('why_title')} body={t('why_text')} />
 			
 	
-				<div class="benefits__section">
+				<div class="benefits_section">
 					<h3>{t('Benefits_title')}</h3>
-					<ol class="benefits__list">
+					<ol class="benefits_list">
 						<li>{t('common:Benefits.0')}</li>
 						<li>{t('common:Benefits.1')}</li>
 						<li>{t('common:Benefits.2')}</li>
@@ -87,7 +87,7 @@ const locale = getLocale()
 <style>
 	main {
 
-		& .funfacts__container {
+		& .funfacts_container {
 			display: flex;
 			flex-direction: column;
 			gap: 1.5rem;
@@ -100,7 +100,7 @@ const locale = getLocale()
 			}
 		}
 
-		& .why__section {
+		& .why_section {
 			display: flex;
 			flex-direction: column;
 			justify-content: space-around;
@@ -111,9 +111,9 @@ const locale = getLocale()
 				flex-direction: row;
 			}
 		}
-		& .benefits__section {
+		& .benefits_section {
 			
-			& .benefits__list {
+			& .benefits_list {
 				list-style: none;
 			}
 		}

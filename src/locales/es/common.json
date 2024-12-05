@@ -1,6 +1,6 @@
 {
   "navbar": ["Inicio", "Servicios", "Nosotros", "Contacto"],
-  "introduction__title": "Suelo laminado y servicios de pintura",
+  "introduction_title": "Suelo laminado y servicios de pintura",
   "services_section": [
     {
       "enterprise": "Remodeling Fc",

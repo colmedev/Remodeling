@@ -17,10 +17,5 @@ export const navItems: LinkItem[] = [
     text: "About",
     url: "/about",
     label: "about",
-  },
-  {
-    text: "Contact",
-    url: "/contact",
-    label: "contact",
-  },
+  }
 ];

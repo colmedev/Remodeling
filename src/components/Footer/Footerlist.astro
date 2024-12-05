@@ -8,29 +8,39 @@ interface Props {
 }
 
 const { schedule, phone, email, address } = Astro.props;
+
+const dataFooter = t('footer', {
+  returnObjects: true
+})
+
+const { contact } = dataFooter[0]
 ---
 
-<ul class="footer__list">
-  <li>
+<div class="footer-list">
+  <div>
+    <h2>{contact}</h2>
     <p>{address}</p>
-  </li>
-
-  <li>
     <p>{email}</p>
-  </li>
+    <a href={`tel:${phone}`}>{phone}</a>
+  </div>
 
-  <li>
-    <p>{phone}</p>
-  </li>
-
-  <li>
+  <div>
     <p>{schedule}</p>
-  </li>
+  </div>
 
-</ul>
+</div>
 
 <style>
-  .footer__list {
+  .footer-list {
     list-style: none;
+
+    &  a {
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--black);
+      }
+    }
   }
 </style>

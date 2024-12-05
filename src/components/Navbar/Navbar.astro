@@ -1,6 +1,6 @@
 ---
 import { navItems } from "./data"
-
+import Button from "@components/Button/Button.astro"
 ---
 <header class="header">
   <div class="nav-wrapper">
@@ -19,15 +19,17 @@ import { navItems } from "./data"
                   class:list={['menu-link', { 'is-active': Astro.url.pathname === url }]}
                 >
                   {text}
-                </a>
+                </a>                  
               </li>
             ))
         }
+        <li>
+          <Button text="Contact" href="#"/>
+        </li>
+        <li>
+          
+        </li>
       </ul>
-
-      <!-- <Button variant="stroke" size="fit" color="yellow" link="/tickets" icon="ticket">
-        Comprar tickets
-      </Button> -->
 
       <label class="burger" role="button">
         <span class="bar"></span>
@@ -80,7 +82,7 @@ import { navItems } from "./data"
 
           & .menu-item {
             & .menu-link {
-              color: var(--blue-1);
+              color: var(--white);
               text-decoration: none;
 
               transition:

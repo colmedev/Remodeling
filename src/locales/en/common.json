@@ -1,7 +1,7 @@
 {
   "navbar": ["Home", "Services", "About Us", "Contact"],
-  "introduction__title": "Remodeling Fc",
-  "introduction__text": "Laminated flooring & Paiting services",
+  "introduction_title": "Remodeling Fc",
+  "introduction_text": "Laminated flooring & Paiting services",
   "services_section": [
     {
       "title": "Comprehensive home renovation services",
@@ -86,12 +86,17 @@
     "Satisfied customers",
     "Profesionalism"
   ],
-  "provider": " is a seasoned provider of home improvement services, boasting over 10 years of industry experience.",
-  "cover": "we cover",
-  "contact": "Contact Us",
-  "schedule": "Mon - Fri",
-  "payment": "Cash, Checks, Zelle, Cards",
-  "footer": "© Copyright 2024 REMODELING FC LLC",
+  "footer": [
+    {
+      "contact": "Contact Us"
+    },
+    {
+      "schedule": "Mon - Fri"
+    },
+    {
+      "payment": "Cash, Checks, Zelle, Cards"
+    }
+  ],
   "about_us":[
     {
     "title_us": "About Us",
